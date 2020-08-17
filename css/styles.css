@@ -26,7 +26,7 @@ address {
 
 body {
   padding: 50px 0px 0px 0px;
-  z-index: 0; }
+  z-index: 1; }
 
 .navbar-dark {
   background-color: #512Da8; }
@@ -50,7 +50,8 @@ body {
 #carouselButton {
   right: 0px;
   position: absolute;
-  bottom: 0px; }
+  bottom: 0px;
+  z-index: 1; }
 
 .modal-header {
   background: #512Da8; }
